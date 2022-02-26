@@ -1,0 +1,28 @@
+.app__header {
+    background-color: var(--color-black);
+}
+
+.app__header-h1 {
+    font-family: var(--font-base);
+    color: var(--color-golden);
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    line-height: 117px;
+    font-size: 90px;
+}
+
+.app__wrapper_img img {
+    width: 80%;
+}
+
+.app__wrapper_info button:hover {
+    transition: 0.5s ease;
+    background-color: var(--color-golden);
+    color: var(--color-white);
+}
+
+@media screen and (max-width: 1150px) {
+    .app__wrapper_img img {
+        display: none;
+    }
+}
