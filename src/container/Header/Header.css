@@ -16,7 +16,8 @@
 }
 
 .app__wrapper_info button:hover {
-    transition: 0.5s ease;
+    transition: 1s ease;
+    font-weight: 800;
     background-color: var(--color-golden);
     color: var(--color-white);
 }

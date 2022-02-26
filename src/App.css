@@ -63,6 +63,7 @@
     border: none;
     outline: none;
     cursor: pointer;
+    transition: 1s ease;
 }
 
 .p__cormorant {
