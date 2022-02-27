@@ -6,11 +6,11 @@ import "./Navbar.css";
 const Navbar = () => {
   const [toggleMenu, setToggleMenu] = useState(false);
   return (
-    <nav className="app__navbar">
+    <nav className="app__navbar ">
       <div className="app__navbar-logo">
-        <h1 className="p__cormorant">G-Bistro</h1>
+        <h1 className="p__cormorant slide-in-blurred-top">G-Bistro</h1>
       </div>
-      <ul className="app__navbar-links">
+      <ul className="app__navbar-links slide-in-blurred-top">
         <li className="p__opensans">
           <a href="#home">Home</a>
         </li>
@@ -27,7 +27,7 @@ const Navbar = () => {
           <a href="#contact">Contact</a>
         </li>
       </ul>
-      <div className="app__navbar-login">
+      <div className="app__navbar-login slide-in-blurred-top">
         <a href="#login" className="p__opensans">
           Login / Register
         </a>

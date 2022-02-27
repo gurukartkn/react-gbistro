@@ -26,6 +26,73 @@
     margin-left: 1rem;
 }
 
+.app__laurels-img:hover {
+    -webkit-animation: flicker-1 2s linear infinite both;
+    animation: flicker-1 2s linear infinite both;
+}
+
+@-webkit-keyframes flicker-1 {
+    0%,
+    100% {
+        opacity: 1;
+    }
+    41.99% {
+        opacity: 1;
+    }
+    42% {
+        opacity: 0;
+    }
+    43% {
+        opacity: 0;
+    }
+    43.01% {
+        opacity: 1;
+    }
+    47.99% {
+        opacity: 1;
+    }
+    48% {
+        opacity: 0;
+    }
+    49% {
+        opacity: 0;
+    }
+    49.01% {
+        opacity: 1;
+    }
+}
+
+@keyframes flicker-1 {
+    0%,
+    100% {
+        opacity: 1;
+    }
+    41.99% {
+        opacity: 1;
+    }
+    42% {
+        opacity: 0;
+    }
+    43% {
+        opacity: 0;
+    }
+    43.01% {
+        opacity: 1;
+    }
+    47.99% {
+        opacity: 1;
+    }
+    48% {
+        opacity: 0;
+    }
+    49% {
+        opacity: 0;
+    }
+    49.01% {
+        opacity: 1;
+    }
+}
+
 @media screen and (min-width: 1900px) {
     .app__laurels_awards-card {
         min-width: 390px;
