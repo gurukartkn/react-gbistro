@@ -19,6 +19,13 @@
     margin-top: 1rem;
 }
 
+.app__gallery-content button:hover {
+    transition: 1s ease;
+    font-weight: 800;
+    background-color: var(--color-golden);
+    color: var(--color-white);
+}
+
 .app__gallery-images {
     flex: 1;
     display: flex;
