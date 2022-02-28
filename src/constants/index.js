@@ -1,5 +1,5 @@
 import images from './images';
 import meal from '../assets/meal.mp4';
-import data from './data';
+import { awards, cocktails, wines } from './data';
 
-export { images, meal, data };
+export { images, meal, awards, cocktails, wines };
